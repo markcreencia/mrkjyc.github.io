@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://hips.hearstapps.com/hmg-prod/images/cylinder-1-1555358422.gif");
+  height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #676767;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  color: white;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #676767;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #808080;
+}
+
+.team {
+text-align: center;
+color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="proj.html">Home</a>
+  <a href="camshaft.html">Camshaft</a>
+  <a  href="piston.html">Piston</a>
+  <a  href="flywheel.html">Flywheel</a>
+  <a  href="connecting rod.html">Connecting Rod</a>
+  <a  href="crankshaft.html">Crankshaft</a>
+  <a href="sump.html">Sump</a>
+  <a href="camshaft drive belt.html">Camshaft Drive Belt</a>
+  <a class="active" href="aboutus.html">About Us</a>
+</div>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This page is about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 class="team">Our Team</h2>
+<div class="row">
+  <div class="column"> 
+    <div class="card">
+      <img src="Mark.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mark Creencia</h2>
+        <p class="title">2nd Year Mechanical Engineer Student</p>
+        <p>mobile # 0929 545 3234</p>
+        <p>markcreencia1007@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="joyce.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Joyce Maniebo</h2>
+        <p class="title">2nd Year Mechanical Engineer Student</p>
+        <p>mobile # 0908 882 3434</p>
+        <p>joyceemaniebo04@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
